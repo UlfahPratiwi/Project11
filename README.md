@@ -17,7 +17,7 @@
 
 8. Jika Anda melakukan geo-referensi peta yang dipindai seperti ini, Anda dapat memperoleh informasi CRS dari peta itu sendiri. Melihat gambar peta kita, koordinatnya ada di Lintang/Bujur. Tidak ada informasi datum yang diberikan, jadi kita harus mengasumsikan yang sesuai. Karena ini adalah India dan petanya cukup tua, kita bisa bertaruh bahwa data Everest 1830 akan memberi kita hasil yang bagus. Cari everest dan pilih CRS dengan definisi terlama dari datum Everest (EPSG:4042). Klik Oke.
 
-==========
+
 Note :
 
 Survey of India Topo Sheets dibuat antara tahun 1960 dan 2000 menggunakan spheroid Everest 1956 dan datum India_nepal. Jika Anda melakukan georeferensi SOI Topo Sheets, , Anda dapat menentukan CRS Kustom di QGIS dengan parameter berikut dan menggunakannya dalam langkah ini. Definisi ini mencakup parameter delta_x, delta_y dan delta_z untuk mengubah datum ini menjadi WGS84. Lihat halaman ini untuk informasi lebih lanjut tentang Sistem Grid India.
@@ -32,7 +32,7 @@ Sebagian besar peta dibuat menggunakan Proyeksi CRS. Jika peta yang Anda coba ge
 
 9. Beri nama raster keluaran Anda sebagai 1870_southern_india_modified.tif. Pilih LZW sebagai Kompresi. Periksa Simpan poin GCP untuk menyimpan poin sebagai file terpisah untuk tujuan di masa mendatang. Pastikan opsi Muat di QGIS saat selesai dicentang. Klik Oke.
 
-==========
+
 Note :
 
 File GeoTIFF yang tidak terkompresi bisa berukuran sangat besar. Jadi mengompresi mereka selalu merupakan ide yang bagus. Anda dapat mempelajari lebih lanjut tentang berbagai opsi kompresi TIFF (LZW, PACKBITS, atau DEFLATE) di artikel ini.
